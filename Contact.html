@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Chat - Contact</title>
-    <link rel="stylesheet" type="text/css" href="../cssFiles/style.css" />
+    <link rel="stylesheet" type="text/css" href="cssFiles/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
@@ -24,7 +24,9 @@
           </p>
         </div>
 
-        <form action="https://formspree.io/f/mrbodjbl" method="POST">
+        <form action="https://formspree.io/f/mrbodjbl" 
+        method="POST"
+         onsubmit="alert('Thank you! Your message has been sent.');" >
           <div class="form-group">
             <input
               type="text"
