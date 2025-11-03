@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Chat - Contact</title>
+    <link rel="stylesheet" type="text/css" href="../cssFiles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="contact">
+      <h2>Let's Chat</h2>
+
+      <div class="grouptf">
+        <div class="text">
+          <p>
+            Interested in hiring me for your project or just want to say hi?
+            You can fill out the contact form below or send me an email directly
+            at
+            <a href="mailto:erharpreet08@gmail.com">erharpreet08@gmail.com</a>.
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mrbodjbl" method="POST">
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="send-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fullscreen centered container */
+body {
+  background: linear-gradient(135deg, #fff4f4, #ffe0e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Centered content */
+.landing-container {
+  text-align: center;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Avatar */
+.avatar img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 5px solid rgb(233, 98, 105);
+  box-shadow: 0 5px 15px rgba(233, 98, 105, 0.4);
+  margin-bottom: 20px;
+}
+
+/* Text */
+.intro-text h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro-text span {
+  color: rgb(233, 98, 105);
+  font-weight: 600;
+}
+
+/* Animated job title */
+.animated-text {
+  font-size: 22px;
+  color: #555;
+  animation: fadeUp 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0.4;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+}
+
+/* Smooth fade-in animation for the page */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
