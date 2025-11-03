@@ -45,7 +45,7 @@ a.btn-link,
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
-  margin: 5px;
+ margin: 8px 6px;
   border: none;
 }
 
@@ -412,6 +412,11 @@ footer p {
     flex-direction: column-reverse;
     text-align: center;
   }
+ 
+  .section1 .introtxt h1 span {
+    display: none;
+  }
+
 
   .section1 .headshot img {
     width: 220px;
