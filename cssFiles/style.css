@@ -31,6 +31,36 @@ header {
   z-index: 2;
 }
 
+/* ---------- UNIFIED BUTTON STYLE ---------- */
+a.btn-link,
+.section1 .links a,
+.send-btn {
+  display: inline-block;
+  background-color: var(--font-color); 
+  color: var(--background-color);      
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+}
+
+a.btn-link:hover,
+.section1 .links a:hover,
+.send-btn:hover {
+  background-color: #222; 
+  color: var(--background-color);
+  transform: translateY(-2px);
+}
+
+
+
+
+
 /* ---------- NAV BAR ---------- */
 nav {
   display: flex;
@@ -136,21 +166,7 @@ nav .right a:last-child span {
   text-decoration: none;
 }
 
-.section1 .introtxt .links a {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: var(--font-color);
-  color: var(--background-color);
-  margin-right: 10px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  border-radius: 5px;
-}
 
-.section1 .introtxt .links a:hover {
-  opacity: 0.9;
-  transition: all 0.3s;
-}
 
 /* ---------- SECTION 2 (Skills / Tech Stack) ---------- */
 #skillsection {
@@ -276,16 +292,7 @@ nav .right a:last-child span {
   line-height: 1.4;
 }
 
-.project-info .links a {
-  margin-right: 1rem;
-  color: var(--highlighted-color);
-  text-decoration: none;
-  font-size: 0.9rem;
-}
 
-.project-info .links a:hover {
-  text-decoration: underline;
-}
 
 .badge {
   background-color: #ffcc00;
@@ -361,22 +368,6 @@ nav .right a:last-child span {
   box-shadow: 0 0 5px rgba(233, 98, 105, 0.3);
 }
 
-#contact .send-btn {
-  background-color: var(--highlighted-color);
-  color: white;
-  font-size: 16px;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-#contact .send-btn:hover {
-  background-color: #d45a63;
-  transform: translateY(-2px);
-}
 
 
 /* ---------- FOOTER ---------- */

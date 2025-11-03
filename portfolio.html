@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="cssFiles/style.css" />
+    <title>Harpreet's Portfolio</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <a href="loading.html"><span>Harpreet Dhindsa</span></a>
+        </div>
+        <div class="right">
+          <a href="https://github.com/harpreetdhindsa" target="_blank" class="btn-link">
+            <i class="fa-brands fa-github"></i><span> GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" class="btn-link">
+            <i class="fa-brands fa-linkedin"></i><span> LinkedIn</span>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=erharpreet08@gmail.com&su=Let%27s%20Connect&body=Hi%20Harpreet,%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20connect."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-link"
+          >
+            <i class="fa-solid fa-envelope"></i><span> Email</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Intro -->
+      <section class="section1">
+        <div class="introtxt">
+          <h1>Hello, I am Harpreet <span>👋</span></h1>
+          <p>
+            Full-Stack Developer focused on delivering scalable, high-performance
+            solutions using the MERN stack. Experienced in API development,
+            real-time communication, and mobile-first design, with a growing
+            interest in AI automation and data-driven applications.
+          </p>
+
+          <div class="links">
+            <a href="contact.html" target="_blank" class="btn-link">
+              <i class="fa-solid fa-envelope"></i><span> Let's Connect</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img
+            src="images/avatar.png"
+            height="300"
+            width="300"
+            alt="Harpreet Dhindsa"
+          />
+        </div>
+      </section>
+
+      <!--  Skills -->
+      <section id="skillsection">
+        <div class="skills">
+          <h2>Tech Stack & Tools</h2>
+
+          <div class="tech-icons">
+            <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+            <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tech-item"><i class="fa-brands fa-square-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+            <div class="tech-item"><i class="fa-brands fa-react"></i><span>React Native</span></div>
+            <div class="tech-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+            <div class="tech-item"><i class="fa-solid fa-server"></i><span>Express</span></div>
+            <div class="tech-item"><i class="fa-solid fa-database"></i><span>MongoDB</span></div>
+            <div class="tech-item"><i class="fa-solid fa-code"></i><span>TypeScript</span></div>
+            <div class="tech-item"><i class="fa-solid fa-bolt"></i><span>Vite</span></div>
+            <div class="tech-item"><i class="fa-solid fa-mobile-screen"></i><span>Expo Go</span></div>
+            <div class="tech-item"><i class="fa-solid fa-paper-plane"></i><span>Postman</span></div>
+            <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+            <div class="tech-item"><i class="fa-solid fa-code-branch"></i><span>VS Code</span></div>
+            <div class="tech-item"><i class="fa-solid fa-cloud-arrow-up"></i><span>Netlify</span></div>
+            <div class="tech-item"><i class="fa-solid fa-server"></i><span>Render</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Projects (2×2 Grid) -->
+      <section id="project-section">
+        <h2>My Projects</h2>
+
+        <div class="projects-grid">
+          <!-- MiniGigApp -->
+          <div class="project-card" data-type="mern">
+            <img src="images/minigig.png" alt="MiniGigApp" />
+            <div class="project-info">
+              <h3>MiniGigApp</h3>
+              <p>
+                MERN app for local gig-matching with geolocation and custom
+                skill-based fit score ranking.
+              </p>
+              <div class="links">
+                <a href="https://minigigapp.netlify.app" target="_blank" class="btn-link">
+                  <i class="fa-solid fa-globe"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/harpreetdhindsa/MiniGigApp"
+                  target="_blank"
+                  class="btn-link"
+                >
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- NoteApp -->
+          <div class="project-card" data-type="node">
+            <img src="images/noteapp.png" alt="NoteApp" />
+            <div class="project-info">
+              <h3>NoteApp</h3>
+              <p>
+                Secure note-taking app built with EJS templates, Express, and MongoDB.
+              </p>
+              <div class="links">
+                <a href="https://noteapp-38ou.onrender.com" target="_blank" class="btn-link">
+                  <i class="fa-solid fa-globe"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/harpreetdhindsa/NoteApp"
+                  target="_blank"
+                  class="btn-link"
+                >
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- WeatherApp -->
+          <div class="project-card" data-type="react">
+            <img src="images/weatherapp.png" alt="WeatherApp" />
+            <div class="project-info">
+              <h3>WeatherApp</h3>
+              <p>React + TypeScript weather app using the OpenWeatherMap API.</p>
+              <div class="links">
+                <a href="https://reactdynamicweatherapp.netlify.app/" target="_blank" class="btn-link">
+                  <i class="fa-solid fa-globe"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/harpreetdhindsa/Dynamic-WeatherApp-React"
+                  target="_blank"
+                  class="btn-link"
+                >
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Learning Lab -->
+          <div class="project-card" data-type="ai">
+            <img src="images/ai.jpg" alt="AI Library" />
+            <div class="project-info">
+              <h3>AI Learning Lab <span class="badge">In Progress</span></h3>
+              <p>React Native app to experiment with AI model training.</p>
+              <div class="links">
+                <a href="#" class="btn-link">
+                  <i class="fa-solid fa-hourglass-half"></i> Coming Soon
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="spacer" />
+      <footer>
+        <p>Developed and Designed by Harpreet Dhindsa © 2025</p>
+      </footer>
+    </main>
+  </body>
+</html>
